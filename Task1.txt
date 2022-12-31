@@ -1,3 +1,43 @@
+Question 1
+Write a blog on Difference between HTTP1.1 vs HTTP2 ?
+
 HTTP1.1
 
 The most recent version of the World Wide Web application protocol, HTTP, which is built on top of the TCP/IP family of Internet protocols, is HTTP 1.1. Web traffic is decreased by HTTP 1.1's faster page delivery than HTTP's predecessor.
+
+
+HTTP2
+
+A significant update to the HTTP network protocol, which powers the World Wide Web, is HTTP/2. Its origins can be traced back to Google's earlier experimental SPDY protocol. The Internet Engineering Task Force's HTTP Working Group created HTTP/2.
+
+Question 2
+Write a blog about objects and its internal representation in Javascript ?
+
+An object in JavaScript is a separate entity having properties and a type. Consider comparing it to a cup. A cup is an item with characteristics. A cup has a design, weight, colour, material, and other characteristics. In a similar manner, JavaScript objects can have properties that specify their attributes.
+
+Creating Objects in JavaScript:
+
+1.By object literal
+2.By creating instance of Object directly (using new keyword)
+
+1.By object literal
+
+object ={property1:value1,property2:value2...propertyN:valueN}
+syntax
+Example:
+
+var person={fname:"Nagaraj", lname:"Gopalakrishnan"}
+
+2.By creating instance of Object directly (using new keyword):
+
+syntax
+var object =new object()
+
+Example:
+
+var emp=new object()
+emp.id=101;
+emp.name="Nagaraj Gopalakrishnan";
+emp.salary=50000;
+
+
